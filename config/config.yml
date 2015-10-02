@@ -1,0 +1,22 @@
+default:
+  name: HSBXL | Hackerspace Brusselsss
+  logo: https://hackerspace.be/smw/images/0/01/Norbertgothisbrainmachine2.png
+  url: https://hackerspace.be
+  location:
+    address: Rue Manchester 21, 1080 Brussels, Belgium
+    lat: 50.848238
+    lon: 4.328797
+  contact:
+    email: contact@hackerspace.be
+    phone: 003228804004
+    irc: irc://freenode.org/#hsbxl
+    twitter: hsbxl
+    facebook: https://www.facebook.com/groups/hsbxl
+  issue_report_channels: [email]
+  spacefed:
+    spacenet: false
+    spacesaml: false
+    spacephone: false
+development:
+test:
+production:
