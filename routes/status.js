@@ -25,7 +25,12 @@ router.get('/', function (req, res, next) {
                 });
 
                 jres.on('end', function () {
-                    people_present_list = JSON.parse(body);
+                    try {
+                        people_present_list = JSON.parse(body);
+                    } catch (e) {
+                        console.log("bad JSON");
+                    }
+
                     people_present_total = people_present_list.length;
                     callback();
                 });
